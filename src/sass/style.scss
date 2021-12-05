@@ -1,0 +1,20 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+* {
+    margin: 0;
+    padding: 0;
+    // font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.2em;
+    background-color: rgb(6, 69, 105);
+}
+h1 {
+    font-weight: 700;
+}
+
+@import 'blocks/main/main';
